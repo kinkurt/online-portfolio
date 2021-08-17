@@ -1,11 +1,14 @@
 //components
-import Hero from '../components/Hero'
+
+import { Element } from 'react-scroll';
+import IntroPage from './intro'
 
 const HomePage = () => (
     <>
-        <Hero />
+        <p>
+            hi
+        </p>
     </>
-     
 );
 
 export default HomePage;

@@ -1,20 +1,32 @@
-import Link from 'next/link';
+
 import Image from 'next/image';
+
+// https://www.npmjs.com/package/react-scroll
+import { Link } from 'react-scroll';
+import headerItems from './Header.data'
 
 import { Wrapper, Content, LogoImg, Nav, Logos} from './Header.styles';
 
 const Header = () => (
     <Wrapper>
         <Content>
-            
-            <LogoImg Image src= {"/BLNB.svg"} alt='KK-logo' />
-            
-            
-
+                <LogoImg src= {'BLNB.svg'} alt='KK-logo' />
+                
             <Nav>
-                <Link href ="/" >Home</Link>
-                <Link href="/projects" >Projects</Link>
-                <Link href="/about" >About</Link>
+                {headerItems.map((headerItem, i) =>(
+                    <Link 
+                    activeClass="active"
+                    to ={headerItem.path}
+                    spy={true}
+                    smooth={true}
+                    offset= {-100}
+                    duration={500}
+                    key={i}
+                    >
+                        {headerItem.label}
+                    </Link>
+                ))}
+                
             </Nav>
 
             <Logos>

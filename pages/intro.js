@@ -1,26 +1,27 @@
 import styled from 'styled-components';
-import { Wrapper, Content, ProfileImg } from './Hero.styles'
+import { Wrapper, Content, ProfileImg } from '../styles/Intro.styles'
+import { Element } from 'react-scroll';
 
-const Hero = () => (
+const Intro = () => (
+    <Element name="intro" className="element" >
     <Wrapper>
         <Content>
              <ProfileImg Image src= {"/KKpic3.jpg"} alt='Profile pic' />
-            
-            
-            <div>
+                <div>
                 <h1>
-                    Hello and welcome to my site!
+                    I&apos;m Kurt Kin
                 </h1>
                 <p>
                     This is my online portfolio where I try to implement all the knowledge I have learnt.
                 </p>
+                </div>
                 
-            </div>
 
         </Content>
     </Wrapper>
+    </Element>
 );
 
 
-export default Hero;
+export default Intro;
 

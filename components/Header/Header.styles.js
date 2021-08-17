@@ -2,8 +2,12 @@ import styled from 'styled-components';
 
 
 export const Wrapper = styled.div`
-background: none;
-padding: 0 10px;
+background: #fff;
+padding-top: 203px;
+padding: 10px 15px;
+position: sticky;
+top: 0;
+z-index: 100;
 `;
 
 export const Content = styled.div`
