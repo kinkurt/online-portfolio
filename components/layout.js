@@ -7,6 +7,7 @@ import Link from 'next/link';
 import AboutPage from '../pages/about';
 import ProjectsPage from '../pages/projects';
 import IntroPage from '../pages/intro';
+import ContactPage from '../pages/contact';
 
 
 export const siteTitle = 'Online porftolio';
@@ -21,6 +22,7 @@ export const siteTitle = 'Online porftolio';
             <IntroPage />
             <ProjectsPage />
             <AboutPage />
+            <ContactPage />
             <Footer />
             
         </>

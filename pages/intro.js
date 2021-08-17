@@ -6,7 +6,7 @@ const Intro = () => (
     <Element name="intro" className="element" >
     <Wrapper>
         <Content>
-             <ProfileImg Image src= {"/KKpic3.jpg"} alt='Profile pic' />
+             <ProfileImg Image src= {"/KKpic.jpg"} alt='Profile pic' />
                 <div>
                 <h1>
                     I&apos;m Kurt Kin

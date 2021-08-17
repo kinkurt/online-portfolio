@@ -1,20 +1,14 @@
 export const courses = [
     {
-        title:"title",
-        description:"description",
-        image: '/placeholder.png',
+        title:"EasyBank website",
+        description:"A Landing page by Jessica Chan.",
+        image: '/EasyBank.png',
         link: "",
     },
     {
-        title:"title2",
-        description:"This is another test",
-        image: '/placeholder.png',
-        link: "",
-    },
-    {
-        title:"Baking site",
-        description:"description",
-        image: '/placeholder.png',
+        title:"React RMDB",
+        description:"A React course by Thomas Weibenfalk.",
+        image: '/RMDB.png',
         link: "",
     }
     ];

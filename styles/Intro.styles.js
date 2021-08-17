@@ -1,5 +1,6 @@
 import image from "next/image";
 import styled from "styled-components";
+import { Background } from "./Global.styles";
 
 export const Wrapper = styled.div`
     background: none;
