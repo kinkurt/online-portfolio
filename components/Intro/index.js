@@ -13,7 +13,7 @@ const Intro = () => (
                      <span> Kurt</span> Kin</h1>
                 
                 <p>
-                    This is my online portfolio where I try to implement all the knowledge I have learnt.
+                    This is my online portfolio where I implement the knowledge, skills and standards I have learnt.
                 </p>
                 </div>
                 
