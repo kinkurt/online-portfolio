@@ -50,8 +50,8 @@ const Header = () => {
                 <a href="https://github.com/kinkurt" target="_blank" rel="noopener noreferrer">
                     <Image src={"/GitHub-Mark-32px.png"} alt="Github" width={20} height={20}/>
                 </a>
-                
             </Logos>
+            
                 <Mobile onClick={toggle}>
                     <FaBars />
                     <NavDropDown isOpen={isOpen} toggle={toggle}/>

@@ -1,21 +1,18 @@
 export const projects = [
 {
-    title:"title",
-    subtitle:'subtitle1',
-    description:"description",
+    title:"Todo",
+    description:"This is a todo site",
     image: '/placeholder.png',
     link: "",
 },
 {
-    title:"title2",
-    subtitle:'subtitle2',
-    description:"This is another test",
+    title:"Blog",
+    description:"This is my blog",
     image: '/placeholder.png',
     link: "",
 },
 {
     title:"Baking site",
-    subtitle:'subtitle3',
     description:"description",
     image: '/placeholder.png',
     link: "",

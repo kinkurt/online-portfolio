@@ -8,6 +8,8 @@ export const Wrapper = styled.div`
     height: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
+    
+
 `;
 
 export const Content = styled.div`
@@ -16,4 +18,14 @@ export const Content = styled.div`
     max-width: 800px;
     margin: 0 auto;
     padding:20px;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    span{
+        font-weight: bold;
+    }
+    
 `;
