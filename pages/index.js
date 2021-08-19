@@ -5,9 +5,6 @@ import IntroPage from './intro'
 
 const HomePage = () => (
     <>
-        <p>
-            hi
-        </p>
     </>
 );
 
