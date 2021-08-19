@@ -1,6 +1,5 @@
-import image from "next/image";
+
 import styled from "styled-components";
-import { Background } from "./Global.styles";
 
 export const Wrapper = styled.div`
     background: none;
@@ -22,14 +21,16 @@ export const Content = styled.div`
         justify-content: center;
         text-align: center;
         padding: 20px;
+        color: #000000;
+        //text-shadow: 3px 3px 3px darkslategray;
+        
 
         p{
-            font-size: 30px;
-            color: darkslategray;
+            font-size: 40px;
+            //color: darkslategray;
         }
 
         h1{
-            
             align-items: center;
             justify-content: center;
             margin-left: auto;
@@ -37,6 +38,11 @@ export const Content = styled.div`
             text-align: center;
             font-size: 70px;
         }
+
+    }
+    span{
+        color: #C70039;
+        text-shadow: 3px 4px 4px black;
 
     }
 

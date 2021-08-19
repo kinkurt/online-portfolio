@@ -1,4 +1,4 @@
-import { Wrapper, Content } from '../styles/Contact.styles';
+import { Wrapper, Content } from './Contact.styles';
 import { Element } from 'react-scroll';
 
 const contact = () =>(

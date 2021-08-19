@@ -1,7 +1,7 @@
-import { Wrapper, Section, Box  } from "../styles/Projects.styled";
+import { Wrapper, Section, Box  } from "./ProjectDoc.styles";
 import { Element } from 'react-scroll';
-import { projects } from '../data/projects.data';
-import { courses } from '../data/courses.data';
+import { projects } from '../../data/projects.data';
+import { courses } from '../../data/courses.data';
 import Image from 'next/image';
 
 const Proj = () => (

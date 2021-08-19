@@ -1,4 +1,4 @@
-import { Wrapper, Content } from '../styles/About.styles';
+import { Wrapper, Content } from './About.styles';
 import { Element } from 'react-scroll';
 
 const AboutPage = () => (
