@@ -1,5 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
-export default[
+ const Header = [
     {
     path:'intro',
     label:'Home',
@@ -17,3 +16,5 @@ export default[
     label:'Contact',
 },
 ];
+
+export default Header;

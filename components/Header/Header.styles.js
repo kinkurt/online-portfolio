@@ -39,6 +39,9 @@ export const Nav = styled.div`
     margin-bottom: auto;
     margin-top: auto;
 
+    @media screen and (max-width: 768px){
+        display: none;
+    }
     a{
         position: relative;
         text-decoration: none;
@@ -76,11 +79,15 @@ export const Nav = styled.div`
 
 
 export const Logos = styled.div`
+
     padding: 10px;
     justify-content: flex-end;
     margin-bottom: auto;
     margin-top: auto;
-    
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
     a{
 
         opacity: 60%;
@@ -91,7 +98,20 @@ export const Logos = styled.div`
 
         &:hover{
         opacity: 100%;
+        }
     }
-    }
-    
+
 `;
+
+export const Mobile = styled.div`
+    display: none;
+
+    @media screen and (max-width: 768px){
+        display: block;
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: black;
+    }
+
+`;
+

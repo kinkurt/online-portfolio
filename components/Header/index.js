@@ -1,30 +1,44 @@
 
 import Image from 'next/image';
+import { useState } from 'react';
 
 // https://www.npmjs.com/package/react-scroll
-import { Link } from 'react-scroll';
-import headerItems from './Header.data'
+import { Link as LinkScroll } from 'react-scroll';
+import headers from '../../data/headers.data'
 
-import { Wrapper, Content, LogoImg, Nav, Logos} from './Header.styles';
+//https://react-icons.github.io/react-icons/
+import { FaBars } from 'react-icons/fa';
 
-const Header = () => (
+
+import NavDropDown from '../NavDropDown';
+
+import { Wrapper, Content, LogoImg, Nav, Logos, Mobile} from './Header.styles';
+
+const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () =>{
+        setIsOpen(!isOpen);
+    };
+    
+    return(
     <Wrapper>
         <Content>
                 <LogoImg src= {'BLNB.svg'} alt='KK-logo' />
                 
             <Nav>
-                {headerItems.map((headerItem, i) =>(
-                    <Link 
+                {headers.map((headerItem) =>(
+                    <LinkScroll 
                     activeClass="active"
                     to ={headerItem.path}
                     spy={true}
                     smooth={true}
                     offset= {-100}
                     duration={500}
-                    key={i}
+                    key={headerItem.label}
                     >
                         {headerItem.label}
-                    </Link>
+                    </LinkScroll>
                 ))}
                 
             </Nav>
@@ -38,8 +52,13 @@ const Header = () => (
                 </a>
                 
             </Logos>
+                <Mobile onClick={toggle}>
+                    <FaBars />
+                    <NavDropDown isOpen={isOpen} toggle={toggle}/>
+                </Mobile>
         </Content>
+        
     </Wrapper>
-);
+    )};
 
 export default Header; 

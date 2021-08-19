@@ -12,8 +12,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Section = styled.div`
-    display: flex;
-    flex-wrap: wrap;
     justify-content:center;
     margin: 0 auto;
 
