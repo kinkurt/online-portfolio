@@ -9,6 +9,6 @@ export const courses = [
         title:"React RMDB",
         description:"A React course by Thomas Weibenfalk.",
         image: '/RMDB.png',
-        link: "",
+        link: "https://kurt-kin-reactrmdb.netlify.app/",
     }
     ];
