@@ -1,4 +1,4 @@
-import { Wrapper, Section, Box  } from "./ProjectDoc.styles";
+import { Wrapper, Section, Box } from "./ProjectDoc.styles";
 import { Element } from 'react-scroll';
 import { projects } from '../../data/projects.data';
 import { courses } from '../../data/courses.data';
@@ -24,7 +24,19 @@ const Proj = () => (
                         href={project.link}
                         key={project.title}
                         >
-                            <div className="centered">
+                            <div className="container">
+                            
+                            <div className="image">
+                                <Image
+                                className="image"
+                                alt="gallery"
+                                src={project.image}
+                                width={500} 
+                                height={281}
+                                />
+                            </div>
+
+                            <div className="projectInfo">
                                 <h1>
                                     {project.title}
                                 </h1>
@@ -32,17 +44,9 @@ const Proj = () => (
                                 {project.description}
                                 </p>
                             </div>
-
-                            
-                            <div>
-                            <Image
-                            className="image"
-                            alt="gallery"
-                            src={project.image}
-                            width={500} 
-                            height={281}
-                            />
                             </div>
+                            
+                            
                         </a>
                     )}
                 </Box>
@@ -64,24 +68,27 @@ const Proj = () => (
                         href={course.link}
                         key={course.title}
                         >
-                            <div className="centered">
-                                <h1>
-                                    {course.title}
-                                </h1>
-                                <p>
-                                {course.description}
-                                </p>
-                            </div>
+                            <div className="container">
 
-                            
-                            <div>
-                            <Image
-                            className="image"
-                            alt="gallery"
-                            src={course.image}
-                            width={500} 
-                            height={281}
-                            />
+                                <div className="image">
+                                    <Image
+                                    className="image"
+                                    alt="gallery"
+                                    src={course.image}
+                                    width={500} 
+                                    height={281}
+                                    />
+                                    </div>
+
+                                <div className="projectInfo">
+                                    <h1>
+                                        {course.title}
+                                    </h1>
+                                    <p>
+                                    {course.description}
+                                    </p>
+                                </div>
+                                
                             </div>
                         </a>
                     )}

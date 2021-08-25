@@ -8,6 +8,7 @@ padding: 10px 15px;
 position: sticky;
 top: 0;
 z-index: 100;
+cursor: pointer;
 `;
 
 export const Content = styled.div`

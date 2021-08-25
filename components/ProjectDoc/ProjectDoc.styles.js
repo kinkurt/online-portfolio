@@ -23,6 +23,7 @@ export const Section = styled.div`
         margin: 10px;
         background: #E0FFFF;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     }
 `;
 
@@ -31,7 +32,6 @@ export const Box = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: space-around;
     
 
     padding-top: 30px;
@@ -39,40 +39,45 @@ export const Box = styled.div`
     padding-bottom: 30px;
     padding-left: 30px;
 
-    div{
-        padding: 10px;
-    } 
+    .container {
+    position: relative;
+    width: 100%;
+}
+
     
     @media (max-width: 800px) {
         flex-direction: column;
   }
 
   .image {
-    border: 1px solid #ddd;
-    border-radius: 40px;
     padding: 5px;
+    border-radius: 40px;
   }
 
-  .centered {
-      p{
+  
+  .projectInfo{ 
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        opacity: 0;
+        border-radius: 40px;
+        background-color: #E0FFFF;
+        transition: .5s ease;
+        
+        p{
           color: grey;
       }
-    /* position: absolute;
-    height: 281px;
-    left:0;
-    top: auto;
-    background: rgba(0,0,0,0.6);
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    opacity: 10%;
-     */
-/* 
-      &:hover{
-          opacity: 100%; 
-      } */
-    }
+  }
+
+  .container:hover .projectInfo{
+        opacity: 1;
+  }
+
+  
+
 `;
+
 
