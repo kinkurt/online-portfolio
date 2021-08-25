@@ -3,7 +3,7 @@ export const courses = [
         title:"EasyBank website",
         description:"A Landing page by Jessica Chan.",
         image: '/EasyBank.png',
-        link: "",
+        link: "https://flamboyant-tesla-849caf.netlify.app/",
     },
     {
         title:"React RMDB",
