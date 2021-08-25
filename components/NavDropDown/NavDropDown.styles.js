@@ -42,7 +42,7 @@ export const Menu = styled.ul`
     grid-template-rows: repeat(4, 80px);
     text-align: center;
     font-size: 35px;
-    
+    padding: 0;
 
     a{
         background: white;
