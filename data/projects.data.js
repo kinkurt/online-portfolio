@@ -1,20 +1,8 @@
 export const projects = [
 {
-    title:"Todo",
-    description:"This is a todo site",
-    image: '/placeholder.png',
-    link: "",
-},
-{
-    title:"Blog",
-    description:"This is my blog",
-    image: '/placeholder.png',
-    link: "",
-},
-{
-    title:"Baking site",
-    description:"description",
-    image: '/placeholder.png',
-    link: "",
+    title:"Countries info",
+    description:"Api and material-ui site",
+    image: '/CountriesApi.png',
+    link: "https://kind-spence-22f7b7.netlify.app/",
 }
 ];
