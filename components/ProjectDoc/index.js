@@ -23,6 +23,8 @@ const Proj = () => (
                         <a
                         href={project.link}
                         key={project.title}
+                        target="_blank" 
+                        rel="noopener noreferrer"
                         >
                             <div className="container">
                             
