@@ -2,15 +2,15 @@ import { Wrapper, Content } from './Footer.styles';
 import Image from 'next/image';
 
 //https://react-icons.github.io/react-icons/icons?name=ai
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 
 const Footer = () => (
     <Wrapper>
         <Content>
             <div>
             <p>
-                Website by: Kurt Kin <br />
-                <a href="mailto:hege@example.com">kin.kurt@gmail.com</a>
+                Website by: Kurt Kin 
+                {/* <a href="mailto:hege@example.com">kin.kurt@gmail.com</a> */}
             </p>
             </div>
             
@@ -28,14 +28,13 @@ const Footer = () => (
             <a href="https://www.instagram.com/cinnahbun/" target="_blank" rel="noopener noreferrer">
                 <AiFillInstagram className="hover" />
             </a>
+            <a href="https://www.facebook.com/Kurt.Kin/" target="_blank" rel="noopener noreferrer">
+                <AiFillFacebook className="hover" />
+            </a>
 
             </div>
             
         </Content>
-        
-        
-        
-        
         
     </Wrapper>
 );

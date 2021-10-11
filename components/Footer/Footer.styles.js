@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     display: block;
     position: relative;
-    //background:white;
-    background-image: linear-gradient(to bottom right, white, #0CD3C6);
+    background:white;
+    //background-image: linear-gradient(to bottom right, white, #0CD3C6);
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;

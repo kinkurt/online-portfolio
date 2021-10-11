@@ -18,14 +18,22 @@ export const Content = styled.div`
     max-width: 800px;
     margin: 0 auto;
     padding:20px;
+    
 
     a{
         text-decoration: none;
         color: black;
+        
     }
 
-    span{
-        font-weight: bold;
+    a:hover{
+        color:  #0CD3C6;
     }
-    
+
+    .logo{
+        height: 30px;
+        vertical-align: bottom;
+    }
+
 `;
+
