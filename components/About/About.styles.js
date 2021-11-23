@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     background: white;
-    background-image: linear-gradient(#E0FFFF, white);
+    /* background-image: linear-gradient(#E0FFFF, white); */
     background-size:cover;
     margin: 0 auto;
     width: 100%;

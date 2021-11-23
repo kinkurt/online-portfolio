@@ -9,7 +9,7 @@ const Footer = () => (
         <Content>
             <div>
             <p>
-                Website by: Kurt Kin 
+                Built with Next.js - Kurt Kin 
                 {/* <a href="mailto:hege@example.com">kin.kurt@gmail.com</a> */}
             </p>
             </div>
