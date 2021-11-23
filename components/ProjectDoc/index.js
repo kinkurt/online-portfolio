@@ -3,6 +3,7 @@ import { Element } from 'react-scroll';
 import { projects } from '../../data/projects.data';
 import { courses } from '../../data/courses.data';
 import Image from 'next/image';
+import { AiFillGithub,AiOutlineLink } from "react-icons/ai";
 
 const Proj = () => (
     <Element name="projects" className="element" >
@@ -45,6 +46,25 @@ const Proj = () => (
                                 <p>
                                 {project.description}
                                 </p>
+                                <p>
+                                <a
+                                className="links"
+                                href={project.github}
+                                key={project.github}
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    <AiFillGithub className="hover"/>
+                                </a>
+                                <a
+                                className="links"
+                                href={project.link}
+                                key={project.link}
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <AiOutlineLink className="hover"/>
+                                </a>
+                                    </p>
+                                
                             </div>
                             </div>
                             

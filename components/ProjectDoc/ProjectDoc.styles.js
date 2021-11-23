@@ -76,7 +76,24 @@ export const Box = styled.div`
         opacity: 1;
   }
 
-  
+  .links{
+    
+    border-radius: 0;
+    border: 0;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    box-shadow:none;
+    font-size: 30px;
+    
+    
+  }
+
+  .hover{
+    &:hover{
+        fill: #0CD3C6;
+    }
+  }
 
 `;
 
