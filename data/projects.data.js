@@ -1,8 +1,14 @@
 export const projects = [
-{
-    title:"Countries info",
-    description:"Api and material-ui site",
-    image: '/countriesinfo.png',
-    link: "https://kind-spence-22f7b7.netlify.app/",
-}
+    {
+        title:"Instagram",
+        description:"Built with Gatsby and Tailwind",
+        image: '/instagramtry.png',
+        link: "https://gatsbyonlineinstagramtry.gatsbyjs.io/",
+    },
+    {
+        title:"Countries info",
+        description:"Api and material-ui site",
+        image: '/countriesinfo.png',
+        link: "https://kind-spence-22f7b7.netlify.app/",
+    },
 ];
