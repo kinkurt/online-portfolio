@@ -67,53 +67,7 @@ const Proj = () => (
                                 
                             </div>
                             </div>
-                            
-                            
-                        </a>
-                    )}
-                </Box>
-                </Section>
-
-                <Section>
-                <div>
-                <h1>
-                    Projects that I have followed
-                </h1>
-                <p>
-                    These are the courses and projects that have helped me.
-                </p>
-                </div>
-
-                <Box>
-                    {courses.map((course)=> 
-                        <a
-                        href={course.link}
-                        key={course.title}
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        >
-                            <div className="container">
-
-                                <div className="image">
-                                    <Image
-                                    className="image"
-                                    alt="gallery"
-                                    src={course.image}
-                                    width={500} 
-                                    height={281}
-                                    />
-                                    </div>
-
-                                <div className="projectInfo">
-                                    <h1>
-                                        {course.title}
-                                    </h1>
-                                    <p>
-                                    {course.description}
-                                    </p>
-                                </div>
-                                
-                            </div>
+                        
                         </a>
                     )}
                 </Box>
