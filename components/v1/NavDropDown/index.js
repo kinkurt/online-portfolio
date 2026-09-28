@@ -1,6 +1,6 @@
 import { CloseIcon, NavContainer,Icon,Wrapper,Menu } from './NavDropDown.styles';
 import { Link as LinkScroll } from 'react-scroll';
-import  headers  from '../../data/headers.data';
+import  headers  from '../../../data/headers.data';
 import Image from 'next/image';
 import { Logos } from './NavDropDown.styles';
 

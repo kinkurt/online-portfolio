@@ -1,21 +1,8 @@
-/* html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+import { createGlobalStyle } from 'styled-components';
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-} */
-
-html{
+// Global styles for the original (Version 1) design, moved from styles/globals.css
+// so they only apply on the /v1 page.
+export const V1GlobalStyle = createGlobalStyle`nhtml{
   font-size: 100%;
   box-sizing: border-box;
   
@@ -57,3 +44,4 @@ nav a{
   background-size: cover;
   background-image: url("/background.jpg");
   }
+`;

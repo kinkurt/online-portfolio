@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 // https://www.npmjs.com/package/react-scroll
 import { Link as LinkScroll } from 'react-scroll';
-import headers from '../../data/headers.data'
+import headers from '../../../data/headers.data'
 
 //https://react-icons.github.io/react-icons/
 import { FaBars } from 'react-icons/fa';
