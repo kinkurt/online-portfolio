@@ -15,7 +15,7 @@ export const Section = styled.div`
     justify-content:center;
     margin: 0 auto;
 
-    a{
+    .card{
         border-radius: 40px;
         border: 1px solid white;
         text-decoration: none;
@@ -76,8 +76,15 @@ export const Box = styled.div`
         opacity: 1;
   }
 
+  .cardLink{
+    position: absolute;
+    inset: 0;
+    border-radius: 40px;
+  }
+
   .links{
-    
+    position: relative;
+    z-index: 1;
     border-radius: 0;
     border: 0;
     text-decoration: none;

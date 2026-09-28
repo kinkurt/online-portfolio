@@ -24,7 +24,7 @@ const AboutPage = () => (
               <p>
                   I am a motivated team player and an aspiring web developer. I like to learn new skills to improve myself. To join a project where I can be proud and say that I helped out with that.
              </p>
-              <p>
+              <div>
                 <h3>Programming Languages </h3>
                     <ul>
                       <li>
@@ -58,7 +58,7 @@ const AboutPage = () => (
                         Material-ui
                     </li>
                 </ul>
-              </p>
+              </div>
                 
             </Content>
         </Wrapper>

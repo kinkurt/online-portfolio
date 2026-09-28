@@ -10,7 +10,7 @@ import { Logos } from './NavDropDown.styles';
 const NavDropDown = ({isOpen, toggle}) =>{
     
     return(
-        <NavContainer isOpen={isOpen} onClick={toggle}>
+        <NavContainer $isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>

@@ -21,11 +21,9 @@ const Proj = () => (
                 </div>
                 <Box>
                     {projects.map((project)=> 
-                        <a
-                        href={project.link}
+                        <div
+                        className="card"
                         key={project.title}
-                        target="_blank" 
-                        rel="noopener noreferrer"
                         >
                             <div className="container">
                             
@@ -40,6 +38,14 @@ const Proj = () => (
                             </div>
 
                             <div className="projectInfo">
+                                {/* Covers the whole card so it stays clickable without nesting links */}
+                                <a
+                                className="cardLink"
+                                href={project.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={project.title}
+                                />
                                 <h1>
                                     {project.title}
                                 </h1>
@@ -67,8 +73,8 @@ const Proj = () => (
                                 
                             </div>
                             </div>
-                        
-                        </a>
+
+                        </div>
                     )}
                 </Box>
                 </Section>
