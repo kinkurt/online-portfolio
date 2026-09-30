@@ -1,5 +1,11 @@
 export const projects = [
     {
+        title:"Training tracker",
+        description:"Workout plans, cycle view and set logging. Built with Vite, React and Supabase",
+        image: '/training-tracker.png',
+        link: "https://training-tracker-silk-chi.vercel.app/",
+    },
+    {
         title:"Instagram",
         description:"Built with Gatsby and Tailwind",
         image: '/instagramtry.png',
