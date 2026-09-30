@@ -12,6 +12,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "country-flag-emoji-polyfill": "^0.1.10",
     "next": "^16.3.6",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
